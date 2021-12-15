@@ -1,8 +1,4 @@
 spring:
-  datasource:
-    username: ss_tester
-    url: jdbc:postgresql://103.209.147.187:5432/ss_ecomm_db
-    password: Bubble@12
   jpa:
     properties:
       hibernate:
