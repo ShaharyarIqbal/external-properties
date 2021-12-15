@@ -5,6 +5,7 @@ spring:
         default_schema: ecomm
     show-sql: true
     hibernate:
+      dialect: org.hibernate.dialect.MySQL5InnoDBDialect
       ddl-auto: none
 server:
   port: 8080
